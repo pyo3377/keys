@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 
+$(warning "Your build will be signed Ma_キーマ key.")
 PRODUCT_CERTIFICATE_OVERRIDES := \
     com.android.adbd:com.android.adbd.certificate.override \
     com.android.adservices:com.android.adservices.certificate.override \
